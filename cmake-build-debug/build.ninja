@@ -73,6 +73,12 @@ build CMakeFiles/ParallProg.dir/HW1.cpp.obj: CXX_COMPILER__ParallProg_Debug C$:/
   OBJECT_DIR = CMakeFiles\ParallProg.dir
   OBJECT_FILE_DIR = CMakeFiles\ParallProg.dir
 
+build CMakeFiles/ParallProg.dir/Homework1.cpp.obj: CXX_COMPILER__ParallProg_Debug C$:/Users/User/Desktop/ParallProg/Homework1.cpp || cmake_object_order_depends_target_ParallProg
+  DEP_FILE = CMakeFiles\ParallProg.dir\Homework1.cpp.obj.d
+  FLAGS = -std=c++11 -fopenmp -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ParallProg.dir
+  OBJECT_FILE_DIR = CMakeFiles\ParallProg.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ParallProg
@@ -81,7 +87,7 @@ build CMakeFiles/ParallProg.dir/HW1.cpp.obj: CXX_COMPILER__ParallProg_Debug C$:/
 #############################################
 # Link the executable ParallProg.exe
 
-build ParallProg.exe: CXX_EXECUTABLE_LINKER__ParallProg_Debug CMakeFiles/ParallProg.dir/main.cpp.obj CMakeFiles/ParallProg.dir/Seminar3.cpp.obj CMakeFiles/ParallProg.dir/HW2.cpp.obj CMakeFiles/ParallProg.dir/HW1.cpp.obj
+build ParallProg.exe: CXX_EXECUTABLE_LINKER__ParallProg_Debug CMakeFiles/ParallProg.dir/main.cpp.obj CMakeFiles/ParallProg.dir/Seminar3.cpp.obj CMakeFiles/ParallProg.dir/HW2.cpp.obj CMakeFiles/ParallProg.dir/HW1.cpp.obj CMakeFiles/ParallProg.dir/Homework1.cpp.obj
   FLAGS = -std=c++11 -fopenmp -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ParallProg.dir
