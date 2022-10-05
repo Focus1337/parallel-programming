@@ -176,29 +176,29 @@ Homeworks/Homework2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.s
 .PHONY : Homeworks/Homework2.cpp.s
 
-Seminars/Seminar1.obj: Seminars/Seminar1.cpp.obj
-.PHONY : Seminars/Seminar1.obj
+Homeworks/Homework3.obj: Homeworks/Homework3.cpp.obj
+.PHONY : Homeworks/Homework3.obj
 
 # target to build an object file
-Seminars/Seminar1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj
-.PHONY : Seminars/Seminar1.cpp.obj
+Homeworks/Homework3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj
+.PHONY : Homeworks/Homework3.cpp.obj
 
-Seminars/Seminar1.i: Seminars/Seminar1.cpp.i
-.PHONY : Seminars/Seminar1.i
+Homeworks/Homework3.i: Homeworks/Homework3.cpp.i
+.PHONY : Homeworks/Homework3.i
 
 # target to preprocess a source file
-Seminars/Seminar1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.i
-.PHONY : Seminars/Seminar1.cpp.i
+Homeworks/Homework3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.i
+.PHONY : Homeworks/Homework3.cpp.i
 
-Seminars/Seminar1.s: Seminars/Seminar1.cpp.s
-.PHONY : Seminars/Seminar1.s
+Homeworks/Homework3.s: Homeworks/Homework3.cpp.s
+.PHONY : Homeworks/Homework3.s
 
 # target to generate assembly for a file
-Seminars/Seminar1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.s
-.PHONY : Seminars/Seminar1.cpp.s
+Homeworks/Homework3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParallProg.dir\build.make CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.s
+.PHONY : Homeworks/Homework3.cpp.s
 
 Seminars/Seminar3.obj: Seminars/Seminar3.cpp.obj
 .PHONY : Seminars/Seminar3.obj
@@ -311,9 +311,9 @@ help:
 	@echo ... Homeworks/Homework2.obj
 	@echo ... Homeworks/Homework2.i
 	@echo ... Homeworks/Homework2.s
-	@echo ... Seminars/Seminar1.obj
-	@echo ... Seminars/Seminar1.i
-	@echo ... Seminars/Seminar1.s
+	@echo ... Homeworks/Homework3.obj
+	@echo ... Homeworks/Homework3.i
+	@echo ... Homeworks/Homework3.s
 	@echo ... Seminars/Seminar3.obj
 	@echo ... Seminars/Seminar3.i
 	@echo ... Seminars/Seminar3.s

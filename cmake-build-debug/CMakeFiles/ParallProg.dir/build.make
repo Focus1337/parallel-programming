@@ -110,24 +110,10 @@ CMakeFiles/ParallProg.dir/Homeworks/Homework1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParallProg.dir/Homeworks/Homework1.cpp.s"
 	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\PP\ParallProg\Homeworks\Homework1.cpp -o CMakeFiles\ParallProg.dir\Homeworks\Homework1.cpp.s
 
-CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj: CMakeFiles/ParallProg.dir/flags.make
-CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj: ../Seminars/Seminar1.cpp
-CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj: CMakeFiles/ParallProg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj"
-	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj -MF CMakeFiles\ParallProg.dir\Seminars\Seminar1.cpp.obj.d -o CMakeFiles\ParallProg.dir\Seminars\Seminar1.cpp.obj -c D:\Study\PP\ParallProg\Seminars\Seminar1.cpp
-
-CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.i"
-	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\PP\ParallProg\Seminars\Seminar1.cpp > CMakeFiles\ParallProg.dir\Seminars\Seminar1.cpp.i
-
-CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.s"
-	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\PP\ParallProg\Seminars\Seminar1.cpp -o CMakeFiles\ParallProg.dir\Seminars\Seminar1.cpp.s
-
 CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj: CMakeFiles/ParallProg.dir/flags.make
 CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj: ../Homeworks/Homework2.cpp
 CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj: CMakeFiles/ParallProg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj"
 	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj -MF CMakeFiles\ParallProg.dir\Homeworks\Homework2.cpp.obj.d -o CMakeFiles\ParallProg.dir\Homeworks\Homework2.cpp.obj -c D:\Study\PP\ParallProg\Homeworks\Homework2.cpp
 
 CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.i: cmake_force
@@ -141,7 +127,7 @@ CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.s: cmake_force
 CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj: CMakeFiles/ParallProg.dir/flags.make
 CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj: ../Seminars/Seminar4.cpp
 CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj: CMakeFiles/ParallProg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj"
 	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj -MF CMakeFiles\ParallProg.dir\Seminars\Seminar4.cpp.obj.d -o CMakeFiles\ParallProg.dir\Seminars\Seminar4.cpp.obj -c D:\Study\PP\ParallProg\Seminars\Seminar4.cpp
 
 CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.i: cmake_force
@@ -155,7 +141,7 @@ CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.s: cmake_force
 CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj: CMakeFiles/ParallProg.dir/flags.make
 CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj: ../Seminars/Seminar5.cpp
 CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj: CMakeFiles/ParallProg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj"
 	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj -MF CMakeFiles\ParallProg.dir\Seminars\Seminar5.cpp.obj.d -o CMakeFiles\ParallProg.dir\Seminars\Seminar5.cpp.obj -c D:\Study\PP\ParallProg\Seminars\Seminar5.cpp
 
 CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.i: cmake_force
@@ -166,15 +152,29 @@ CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.s"
 	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\PP\ParallProg\Seminars\Seminar5.cpp -o CMakeFiles\ParallProg.dir\Seminars\Seminar5.cpp.s
 
+CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj: CMakeFiles/ParallProg.dir/flags.make
+CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj: ../Homeworks/Homework3.cpp
+CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj: CMakeFiles/ParallProg.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\PP\ParallProg\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj"
+	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj -MF CMakeFiles\ParallProg.dir\Homeworks\Homework3.cpp.obj.d -o CMakeFiles\ParallProg.dir\Homeworks\Homework3.cpp.obj -c D:\Study\PP\ParallProg\Homeworks\Homework3.cpp
+
+CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.i"
+	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\PP\ParallProg\Homeworks\Homework3.cpp > CMakeFiles\ParallProg.dir\Homeworks\Homework3.cpp.i
+
+CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.s"
+	C:\Users\Focus\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\PP\ParallProg\Homeworks\Homework3.cpp -o CMakeFiles\ParallProg.dir\Homeworks\Homework3.cpp.s
+
 # Object files for target ParallProg
 ParallProg_OBJECTS = \
 "CMakeFiles/ParallProg.dir/main.cpp.obj" \
 "CMakeFiles/ParallProg.dir/Seminars/Seminar3.cpp.obj" \
 "CMakeFiles/ParallProg.dir/Homeworks/Homework1.cpp.obj" \
-"CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj" \
 "CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj" \
 "CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj" \
-"CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj"
+"CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj" \
+"CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj"
 
 # External object files for target ParallProg
 ParallProg_EXTERNAL_OBJECTS =
@@ -182,10 +182,10 @@ ParallProg_EXTERNAL_OBJECTS =
 ParallProg.exe: CMakeFiles/ParallProg.dir/main.cpp.obj
 ParallProg.exe: CMakeFiles/ParallProg.dir/Seminars/Seminar3.cpp.obj
 ParallProg.exe: CMakeFiles/ParallProg.dir/Homeworks/Homework1.cpp.obj
-ParallProg.exe: CMakeFiles/ParallProg.dir/Seminars/Seminar1.cpp.obj
 ParallProg.exe: CMakeFiles/ParallProg.dir/Homeworks/Homework2.cpp.obj
 ParallProg.exe: CMakeFiles/ParallProg.dir/Seminars/Seminar4.cpp.obj
 ParallProg.exe: CMakeFiles/ParallProg.dir/Seminars/Seminar5.cpp.obj
+ParallProg.exe: CMakeFiles/ParallProg.dir/Homeworks/Homework3.cpp.obj
 ParallProg.exe: CMakeFiles/ParallProg.dir/build.make
 ParallProg.exe: CMakeFiles/ParallProg.dir/linklibs.rsp
 ParallProg.exe: CMakeFiles/ParallProg.dir/objects1.rsp

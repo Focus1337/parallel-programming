@@ -1,2 +1,5 @@
 /cmake-build-debug/
 /.idea/
+/.idea/vcs.xml
+/.idea/.gitignore
+/.idea/modules.xml
