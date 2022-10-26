@@ -3,3 +3,7 @@
 /.idea/vcs.xml
 /.idea/.gitignore
 /.idea/modules.xml
+/MPI/cmake-build-debug/
+/OMP/cmake-build-debug/
+/OMP/.idea/
+/MPI/.idea/
