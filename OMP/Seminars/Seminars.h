@@ -2,6 +2,18 @@
 #define PARALLPROG_SEMINARS_H
 
 namespace Seminars {
+    class Seminar7 {
+    public:
+        static void Execute();
+
+    private:
+        static void Example1();
+
+        static void Example2();
+
+        static void Example3();
+    };
+
     class Seminar6 {
     public:
         static void Execute();

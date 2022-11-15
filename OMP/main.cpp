@@ -7,6 +7,7 @@
 #include <vector>
 #include <random>
 #include <iterator>
+#include <windows.h>
 
 using namespace std;
 using namespace chrono;
@@ -14,5 +15,6 @@ using namespace Homeworks;
 using namespace Seminars;
 
 int main() {
-    Seminar6::Execute();
+    SetConsoleOutputCP(CP_UTF8);
+    Seminar7::Execute();
 }
