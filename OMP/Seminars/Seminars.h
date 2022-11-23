@@ -2,6 +2,15 @@
 #define PARALLPROG_SEMINARS_H
 
 namespace Seminars {
+    class Seminar11 {
+    public:
+        static void Execute(int arraySize);
+
+    private:
+        template<class T>
+        static T *QuickSort(T *array, long lastElementIndex);
+    };
+
     class Seminar7 {
     public:
         static void Execute();
