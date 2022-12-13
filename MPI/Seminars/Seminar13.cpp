@@ -1,9 +1,8 @@
-#include "mpi.h"
+#include "Seminars.h"
 #include <stdio.h>
 #include <cstdlib>
 #include <iostream>
-
-#include "Seminars.h"
+#include "mpi.h"
 
 using namespace Seminars;
 using namespace std;
