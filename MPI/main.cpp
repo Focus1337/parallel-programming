@@ -1,46 +1,104 @@
 #include "Homeworks/Homeworks.h"
 #include "Seminars/Seminars.h"
+#include <windows.h>
 
-#include "mpi.h"
-#include <stdio.h>
-#include <cstdlib>
+#include <iostream>
+#include <cmath>
+#include <iomanip>
 
 using namespace Homeworks;
 using namespace Seminars;
+using namespace std;
 
-void DataInit(int *x, int N) {
-    for (auto i = 0; i < N; ++i) {
-        x[i] = (rand() % 1000);
+
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
+
+    // Тестовая СЛУ:
+// A=[3,1,1], B=[5,6,4,-3], C=[3,1,-2],
+// A=[3,1,1] и вектор решения X=[1,1,1,1]
+
+// Размер матрицы
+    int n;
+    cout << "Ввод числа уравнений n" << endl;
+    cout << "Введите n: ";
+    cin >> n;
+    cout << endl;
+
+    // Векторы решения A, B, C, D, коэффициенты
+// "P" и "Q", а также вектор решений x
+    auto *A = new double[n];
+    auto *B = new double[n];
+    auto *C = new double[n];
+    auto *D = new double[n];
+    auto *p = new double[n];
+    auto *q = new double[n];
+    auto *x = new double[n];
+
+    // Ввод векторов A, B, C, D
+    cout << "Ввод векторов A, B, C, D" << endl;
+    for (int k = 1; k < n; k++) {
+        cout << "Введите А: ";
+        cin >> A[k];
     }
-}
+    for (int k = 0; k < n; k++) {
+        cout << "Введите B: ";
+        cin >> B[k];
+    }
+    for (int k = 0; k < n - 1; k++) {
+        cout << "Введите C: ";
+        cin >> C[k];
+    }
+    for (int k = 0; k < n; k++) {
+        cout << "Введите D: ";
+        cin >> D[k];
+    }
+    cout << endl;
 
-int main(int argc, char **argv) {
-    // Initialize the MPI environment
-    MPI_Init(&argc, &argv);
+    // Вывод векторов A, B, C, D для контроля
+    cout << "Вектор A" << endl;
+    for (int k = 0; k < n; k++) {
+        cout << setprecision(5) << A[k] << endl;
+    }
+    cout << endl;
+    cout << "Вектор B" << endl;
+    for (int k = 0; k < n; k++) {
+        cout << setprecision(5) << B[k] << endl;
+    }
+    cout << endl;
+    cout << "Вектор C" << endl;
+    for (int k = 0; k < n; k++) {
+        cout << setprecision(5) << C[k] << endl;
+    }
+    cout << endl;
+    cout << "Вектор D" << endl;
+    for (int k = 0; k < n; k++) {
+        cout << setprecision(5) << D[k] << endl;
+    }
+    cout << endl;
 
-    // Get the number of processes
-    int world_size;
-    MPI_Comm_size(MPI_COMM_WORLD, &world_size);
+    // Краевые условия
+    p[0] = C[0] / B[0];
+    q[0] = D[0] / B[0];
+    p[n - 1] = 0.0;
+    q[n - 1] = 0.0;
 
-    // Get the rank of the process
-    int world_rank;
-    MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
+    // Прямой проход
+    for (int k = 1; k < n; k++) {
+        p[k] = C[k] / (B[k] - A[k] * p[k - 1]);
+        q[k] = (D[k] - A[k] * q[k - 1]) / (B[k] - A[k] * p[k - 1]);
+    }
 
-    int gsize, sendarray[100];
-    int root = 0, *recvbuf;
+    // Обратный проход
+    x[n - 1] = q[n - 1];
+    for (int k = n - 2; k >= 0; k--) {
+        x[k] = q[k] - p[k] * x[k + 1];
+    }
+    cout << endl;
 
-    int size = 100 / world_size;
-
-    DataInit(sendarray, 100);
-
-    MPI_Comm_size(MPI_COMM_WORLD, &gsize);
-    recvbuf = (int *) malloc(gsize * size * sizeof(int));
-
-    MPI_Scatter(sendarray, size, MPI_INT, recvbuf, size, MPI_INT, root, MPI_COMM_WORLD);
-
-    for (int i = 0; i < size; ++i)
-        printf("[CPU%i]: %i\n", world_rank, recvbuf[i]);
-
-    // Finalize the MPI environment.
-    MPI_Finalize();
+    // Вывод результатов решения
+    cout << "Вектор решения X" << endl;
+    for (int k = 0; k < n; k++) {
+        cout << setprecision(5) << x[k] << endl;
+    }
 }
